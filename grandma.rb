@@ -15,8 +15,7 @@ def speak_to_grandma(phrase)
 
     if phrase == "I LOVE YOU GRANDMA!"
       return "I LOVE YOU TOO PUMPKIN!"
-    # If you shout, she can hear you (or at least she thinks so)
-    # and yells back
+  
     elsif phrase =="Hi Nana, how are you?"
       return "HUH?! SPEAK UP, SONNY!"
     elsif phrase == "Hi!"
@@ -31,8 +30,7 @@ def speak_to_grandma(phrase)
     else
   		return "NO, NOT SINCE 1938!"
     end
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
-# 'I LOVE YOU TOO PUMPKIN!'
+
 end
 
 speak_to_grandma("HELLO THERE")
